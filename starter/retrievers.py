@@ -104,3 +104,4 @@ class HybridRetriever:
             merged.append(c)
 
         return sorted(merged, key=lambda x: (-x['score'], x['id']))[:top_k]
+
