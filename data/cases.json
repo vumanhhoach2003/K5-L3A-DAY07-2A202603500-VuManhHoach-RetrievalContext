@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Học viện Công nghệ Bưu chính Viễn thông được thành lập vào năm nào và theo quyết định số bao nhiêu của Thủ tướng Chính phủ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Vào ngày tháng năm nào Học viện được điều chuyển từ Tập đoàn Bưu chính Viễn thông Việt Nam về Bộ Thông tin và Truyền thông?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Trong Phần 1 về giới thiệu Học viện, danh hiệu Anh hùng Lao động thời kỳ đổi mới được trao tặng cho Học viện vào năm nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Mã ngành đào tạo trình độ đại học của ngành Trí tuệ nhân tạo tại Học viện Công nghệ Bưu chính Viễn thông là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Chỉ tiêu tuyển sinh đại học chính quy dự kiến cho ngành Trí tuệ nhân tạo của Học viện năm 2025 là bao nhiêu sinh viên?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Theo khảo sát nhu cầu đào tạo nhân lực ngành AI của Học viện, các doanh nghiệp gặp khó khăn lớn nhất là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Mức lương trung bình của kỹ sư AI mới tốt nghiệp và người có kinh nghiệm 3-5 năm theo báo cáo thị trường IT 2023 là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Tỷ lệ tăng trưởng doanh thu dự kiến của thị trường Trí tuệ nhân tạo tại Việt Nam trong giai đoạn 2024-2030 là bao nhiêu phần trăm mỗi năm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Trong Chiến lược quốc gia về nghiên cứu, phát triển và ứng dụng Trí tuệ nhân tạo đến năm 2030, mục tiêu xếp hạng AI của Việt Nam trong khu vực ASEAN là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Chương trình đào tạo đại học ngành Trí tuệ nhân tạo của Học viện có tổng số bao nhiêu tín chỉ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Thời gian đào tạo tiêu chuẩn của chương trình đại học ngành Trí tuệ nhân tạo tại Học viện là mấy năm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Trong Phần 4 về năng lực cơ sở đào tạo, tính đến năm học 2024-2025, Học viện có bao nhiêu giảng viên có trình độ Tiến sĩ trở lên phục vụ khối ngành công nghệ thông tin và AI?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Hệ thống phòng thí nghiệm của Học viện phục vụ đào tạo ngành AI bao gồm những phòng thí nghiệm trọng điểm nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Doanh nghiệp nào đã ký kết thỏa thuận hợp tác tài trợ học bổng và tiếp nhận sinh viên thực tập ngành AI với Học viện?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Đơn vị chuyên môn nào đảm nhận nhiệm vụ chủ trì đề xuất xây dựng và mở ngành Trí tuệ nhân tạo tại Học viện?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_dev_unans_01",
+    "split": "dev",
+    "question": "Chính sách quy đổi chứng chỉ IELTS sang điểm môn tiếng Anh trong tuyển sinh ngành AI tại Học viện cụ thể như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu đề án mở ngành không quy định bảng quy đổi điểm chứng chỉ tiếng Anh chi tiết trong đề án tuyển sinh."
+  },
+  {
+    "id": "q_dev_unans_02",
+    "split": "dev",
+    "question": "Mức học phí chi tiết theo từng học kỳ của toàn khóa học ngành Trí tuệ nhân tạo là bao nhiêu tiền một tín chỉ?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Đề án mở ngành không nêu mức học phí chi tiết từng tín chỉ hoặc từng kỳ của ngành AI."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Văn bản nào của Bộ Giáo dục và Đào tạo quy định về việc mở ngành đào tạo trình độ đại học mà đề án này căn cứ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Theo đề án, chuẩn đầu ra về ngoại ngữ của sinh viên tốt nghiệp ngành Trí tuệ nhân tạo yêu cầu đạt trình độ tối thiểu nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong Phần 4, cơ sở vật chất phục vụ nghiên cứu và thực hành AI của Học viện tại cơ sở Hà Nội có diện tích sàn xây dựng là bao nhiêu m2?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Khi xây dựng chương trình ngành Trí tuệ nhân tạo, Hội đồng đã khảo sát và đối sánh với hai trường đại học nào của Hoa Kỳ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Sau khi tốt nghiệp ngành Trí tuệ nhân tạo tại Học viện, người học có thể đảm nhận những vị trí công việc tiêu biểu nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_test_unans_01",
+    "split": "test",
+    "question": "Khu ký túc xá của Học viện có cam kết cung cấp đủ chỗ ở cho 100% tân sinh viên ngành Trí tuệ nhân tạo trong năm đầu tiên không?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Đề án tập trung vào chương trình đào tạo và giảng viên, không chứa cam kết chỗ ở ký túc xá cho sinh viên ngành AI."
+  },
+  {
+    "id": "q_test_unans_02",
+    "split": "test",
+    "question": "Chương trình đào tạo ngành Trí tuệ nhân tạo có liên kết trao đổi sinh viên 2+2 với Đại học Oxford không?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu đề án không có thỏa thuận liên kết đào tạo 2+2 nào với Đại học Oxford."
+  }
+]

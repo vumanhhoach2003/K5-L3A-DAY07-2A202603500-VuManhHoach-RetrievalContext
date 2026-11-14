@@ -1,0 +1,16 @@
+{
+  "strategy": "hybrid_top5_b1500",
+  "split": "test",
+  "top_k": 5,
+  "budget": 1500,
+  "n": 5,
+  "hit1": 3,
+  "hit1_rate": 0.6,
+  "hit3": 5,
+  "hit3_rate": 1.0,
+  "context_hit": 4,
+  "context_hit_rate": 0.8,
+  "avg_context_chars": 1322.2,
+  "median_ms": 22.11,
+  "service_cost_usd": 0.0
+}

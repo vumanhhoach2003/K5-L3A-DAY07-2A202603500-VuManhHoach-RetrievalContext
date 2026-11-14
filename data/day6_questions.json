@@ -1,0 +1,228 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Học viện Công nghệ Bưu chính Viễn thông được thành lập vào năm nào và theo quyết định số bao nhiêu của Thủ tướng Chính phủ?",
+    "expected_answer": "Năm 1997 theo Quyết định số 516/TTg của Thủ tướng Chính phủ.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 4,
+    "evidence_quote": "Học viện Công nghệ Bưu chính Vi ễn thông đư ợc thành lập năm 1997 theo Quy ết \nđịnh số 516/TTg của Thủ tướng Chính phủ",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Vào ngày tháng năm nào Học viện được điều chuyển từ Tập đoàn Bưu chính Viễn thông Việt Nam về Bộ Thông tin và Truyền thông?",
+    "expected_answer": "Ngày 1/7/2014.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 5,
+    "evidence_quote": "1/7/2014: Học viện được điều chuyển từ Tập đoàn Bưu chính Viễn thông Việt Nam \nvề Bộ Thông tin v à Truyền thông",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Trong Phần 1 về giới thiệu Học viện, danh hiệu Anh hùng Lao động thời kỳ đổi mới được trao tặng cho Học viện vào năm nào?",
+    "expected_answer": "Năm 2013.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 5,
+    "evidence_quote": "Danh hiệu Anh hùng Lao động thời kỳ đổi mới (2013)",
+    "filter": {
+      "section": "phan_1"
+    },
+    "type": "metadata_filter"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Mã ngành đào tạo trình độ đại học của ngành Trí tuệ nhân tạo tại Học viện Công nghệ Bưu chính Viễn thông là gì?",
+    "expected_answer": "7480107",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 4,
+    "evidence_quote": "Mã ngành đào tạo: 7480107",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Chiến lược quốc gia về nghiên cứu, phát triển và ứng dụng trí tuệ nhân tạo đến năm 2030 được phê duyệt theo quyết định nào?",
+    "expected_answer": "Quyết định số 127/QĐ-TTg ngày 26/1/2021.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 12,
+    "evidence_quote": "Quyết định số 127/QĐ-TTg ngày 26/1/2021 \nphê duyệt Chiến lược quốc gia về nghiên cứu, phát triển và ứng dụng trí tuệ nhân tạo đến \nnăm 2030",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Học viện đã mở mới ngành đào tạo Thiết kế games trình độ đại học vào năm nào?",
+    "expected_answer": "Năm 2024.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 12,
+    "evidence_quote": "Thiết kế games (2024)",
+    "filter": null,
+    "type": "paraphrase"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Theo khảo sát, đối với các doanh nghiệp nhỏ quy mô 10-100 người, ưu tiên chính trong việc áp dụng AI là gì?",
+    "expected_answer": "Tận dụng các giải pháp AI sẵn có trên thị trường (SaaS, APIs) để tiết kiệm chi phí và thời gian phát triển.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 17,
+    "evidence_quote": "Tận dụng các giải \npháp AI sẵn có trên \nthị trường (SaaS, \nAPIs) để tiết kiệm chi \nphí và thời gian phát \ntriển",
+    "filter": null,
+    "type": "condition"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Tổng khối lượng tín chỉ của chương trình đào tạo trình độ đại học ngành Trí tuệ nhân tạo của Học viện là bao nhiêu?",
+    "expected_answer": "154 tín chỉ.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 42,
+    "evidence_quote": "chương trình đào tạo cho ngành Trí tuệ nhân tạo của Học viện với tổng cộng 154 \ntín chỉ",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Khối kiến thức giáo dục đại cương trong chương trình ngành Trí tuệ nhân tạo chiếm bao nhiêu tín chỉ?",
+    "expected_answer": "45 tín chỉ.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 42,
+    "evidence_quote": "Khối kiến thức giáo dục đại cương: 45 tín chỉ.",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Trong chương trình đào tạo ngành Trí tuệ nhân tạo của PTIT, khối kiến thức cơ sở Trí Tuệ nhân tạo gồm bao nhiêu tín chỉ?",
+    "expected_answer": "24 tín chỉ.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 35,
+    "evidence_quote": "Khối kiến thức cơ \nsở Trí Tuệ nhân tạo \n24 tín chỉ: Học máy , Học \nsâu, Khai phá dữ liệu lớn",
+    "filter": null,
+    "type": "paraphrase"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Hệ thống thư viện điện tử của Học viện sử dụng 02 phần mềm nào?",
+    "expected_answer": "Phần mềm Libol và phần mềm Dspace.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 46,
+    "evidence_quote": "Thư viện điện tử: \n02, gồm có phần mềm Libol và phầm mềm \nDspace",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Trong Phần 4 về năng lực cơ sở đào tạo, thư viện của Học viện được trang bị bao nhiêu máy tính phục vụ tra cứu?",
+    "expected_answer": "12 máy tính.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 46,
+    "evidence_quote": "Số lượng máy tính phục vụ tra cứu: 12",
+    "filter": {
+      "section": "phan_4"
+    },
+    "type": "metadata_filter"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Công trình khối nhà hiệu bộ, phòng học 13 tầng tại cơ sở Đại Mỗ của Học viện có diện tích sử dụng là bao nhiêu mét vuông?",
+    "expected_answer": "10.400 m2.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 46,
+    "evidence_quote": "01 khối nhà hiệu bộ, phòng học, giảng đường 13 tầng với diện tích sử dụng là 10.400m2",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Trong Phần 5 về phòng ngừa rủi ro, hệ thống đảm bảo chất lượng của chương trình tuân thủ theo các quy định của cơ quan nào?",
+    "expected_answer": "Bộ Giáo dục và Đào tạo.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 56,
+    "evidence_quote": "quy định về đảm bảo chất lượng c ủa Bộ Giáo dục và Đào tạo",
+    "filter": null,
+    "type": "paraphrase"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Đơn vị chuyên môn nào đảm nhận nhiệm vụ chủ trì đề xuất xây dựng và mở ngành Trí tuệ nhân tạo tại Học viện?",
+    "expected_answer": "Khoa Trí tuệ nhân tạo.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 9,
+    "evidence_quote": "Giới thiệu Khoa Trí tuệ nhân tạo – Đơn vị chuyên môn đảm nhận nhiệm vụ chủ \ntrì xây dựng và đào tạo ngành Trí tuệ nhân tạo",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Tên tiếng Anh chính thức của ngành đào tạo Trí tuệ nhân tạo tại Học viện Công nghệ Bưu chính Viễn thông là gì?",
+    "expected_answer": "Artificial Intelligence",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 4,
+    "evidence_quote": "Tên ngành (tiếng Anh): Artificial Intelligence",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Trung tâm Công nghệ thông tin CDIT trực thuộc Học viện được thành lập vào ngày tháng năm nào?",
+    "expected_answer": "Ngày 22/3/1999.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 5,
+    "evidence_quote": "22/3/1999: Th ành lập Trung tâm Công ngh ệ thông tin CDIT tr ực thuộc Học viện \nCông nghệ Bưu chính Viễn thông",
+    "filter": null,
+    "type": "direct"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong Phần 4 về năng lực cơ sở đào tạo, phòng đọc của thư viện Học viện có diện tích và số chỗ ngồi cụ thể là bao nhiêu?",
+    "expected_answer": "Diện tích phòng đọc là 200 m2 và số chỗ ngồi là 150.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 46,
+    "evidence_quote": "Diện tích phòng đọc: 200 m2 \nSố chỗ ngồi: 150",
+    "filter": {
+      "section": "phan_4"
+    },
+    "type": "metadata_filter"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Khi xây dựng chương trình ngành Trí tuệ nhân tạo, Hội đồng đã khảo sát và đối sánh với hai trường đại học nào của Hoa Kỳ?",
+    "expected_answer": "Đại học Stanford (Stanford University) và Đại học Carnegie Mellon (CMU).",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 42,
+    "evidence_quote": "• Đại học Stanford (Hoa Kỳ): Chương trình Cử nhân Khoa học Máy tính với chuyên \nngành AI. • Đại học Carnegie Mellon (Hoa Kỳ): Chương trình đào tạo AI và Học máy.",
+    "filter": null,
+    "type": "paraphrase"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Đối với các doanh nghiệp quy mô lớn (trên 300 người), ưu tiên chiến lược của họ khi đầu tư vào AI là gì?",
+    "expected_answer": "Xây dựng phòng ban AI chuyên dụng: Thu hút, duy trì đội ngũ chuyên gia AI để phát triển các giải pháp tiên tiến.",
+    "gold_source_id": "de_an_ai_ptit_2024",
+    "gold_page": 17,
+    "evidence_quote": "Xây dựng phòng ban \nAI chuyên dụng: Thu \nhút, duy trì đội ngũ \nchuyên gia AI để \nphát triển các giải \npháp tiên tiến",
+    "filter": null,
+    "type": "condition"
+  }
+]

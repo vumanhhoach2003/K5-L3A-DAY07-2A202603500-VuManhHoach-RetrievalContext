@@ -1,0 +1,379 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Tên tiếng Anh chính thức của ngành đào tạo Trí tuệ nhân tạo tại Học viện Công nghệ Bưu chính Viễn thông là gì?",
+    "strategy": "tfidf_baseline",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter_used": null,
+    "gold": [
+      {
+        "source_id": "de_an_ai_ptit_2024",
+        "page": 4,
+        "evidence": "Tên ngành (tiếng Anh): Artificial Intelligence"
+      }
+    ],
+    "results": [
+      {
+        "id": "de_an_ai_ptit_2024_p4_para000",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 4,
+        "text": "BỘ KHOA HỌC VÀ CÔNG NGHỆ \nHỌC VIỆN CÔNG NGHỆ \nBƯU CHÍNH VIỄN THÔNG \nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM \nĐộc lập – Tự do – Hạnh phúc\n\nĐỀ ÁN MỞ NGÀNH ĐÀO TẠO\n\nTên ngành (tiếng Việt): Trí tuệ nhân tạo \nTên ngành (tiếng Anh): Artificial Intelligence \nMã ngành đào tạo: 7480107 \nTrình độ đào tạo: Đại học \nHình thức đào tạo: Chính quy",
+        "metadata": {
+          "section": "phan_1",
+          "physical_page": 4,
+          "printed_page": 1,
+          "char_count": 2045
+        },
+        "score": 0.5630849834400854,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "de_an_ai_ptit_2024_p4_para001",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 4,
+        "text": "PHẦN 1. GIỚI THIỆU KHÁI QUÁT VỀ HỌC VIỆN CÔNG NGHỆ BƯU \nCHÍNH VIỄN THÔNG \n1.1. Giới thiệu về Học viện Công nghệ Bưu chính viễn thông \n1.1.1. Giới thiệu chung về Học viện Công nghệ Bưu chính Viễn thông \nHọc viện Công nghệ Bưu chính Vi ễn thông đư ợc thành lập năm 1997 theo Quy ết \nđịnh số 516/TTg của Thủ tướng Chính phủ trên cơ sở sắp xếp lại 4 đơn vị thành viên của \nTổng công ty Bưu chính Viễn thông Việt Nam (Tập đoàn Bưu chính Viễn thông Việt Nam) \nbao gồm các đơn v ị đào tạo và nghiên cứu: Trung tâm Đ ào tạo Bưu chính Vi ễn thông 1 \n(tiền thân là Trường Đại học Thông tin liên lạc); Trung tâm Đào tạo Bưu chính Viễn thông \n2 (tại Tp. Hồ Chí Minh); Viện Khoa học kỹ thuật Bưu điện và Viện Kinh tế Bưu điện.",
+        "metadata": {
+          "section": "phan_1",
+          "physical_page": 4,
+          "printed_page": 1,
+          "char_count": 2045
+        },
+        "score": 0.4748978181534472,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "de_an_ai_ptit_2024_p5_para000",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 5,
+        "text": "- 11/7/1997: Thành lập Học viện Công nghệ Bưu chính Viễn thông trên cơ sở sắp xếp \nlại 4 đơn vị thành viên của Tổng công ty Bưu chính Viễn thông Việt Nam (nay là Tập \nđoàn Bưu chính Viễn thông Việt Nam) gồm: Trung tâm đào tạo Bưu chính Viễn thông \n1 và 2, Viện khoa học kỹ thuật Bưu Điện, Viện Kinh tế Bưu Điện) 17/9/1997: Công \nbố quyết định thành lập Học viện Công nghệ BCVT.",
+        "metadata": {
+          "section": "phan_1",
+          "physical_page": 5,
+          "printed_page": 2,
+          "char_count": 2457
+        },
+        "score": 0.4356074755979011,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[de_an_ai_ptit_2024_p4_para000 | De-an-mo-nganh-AI_Final.pdf | page 4]\nBỘ KHOA HỌC VÀ CÔNG NGHỆ \nHỌC VIỆN CÔNG NGHỆ \nBƯU CHÍNH VIỄN THÔNG \nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM \nĐộc lập – Tự do – Hạnh phúc\n\nĐỀ ÁN MỞ NGÀNH ĐÀO TẠO\n\nTên ngành (tiếng Việt): Trí tuệ nhân tạo \nTên ngành (tiếng Anh): Artificial Intelligence \nMã ngành đào tạo: 7480107 \nTrình độ đào tạo: Đại học \nHình thức đào tạo: Chính quy",
+    "context_ids": [
+      "de_an_ai_ptit_2024_p4_para000"
+    ],
+    "context_chars": 400,
+    "elapsed_ms": 0.924099998883321,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Trung tâm Công nghệ thông tin CDIT trực thuộc Học viện được thành lập vào ngày tháng năm nào?",
+    "strategy": "tfidf_baseline",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter_used": null,
+    "gold": [
+      {
+        "source_id": "de_an_ai_ptit_2024",
+        "page": 5,
+        "evidence": "22/3/1999: Th ành lập Trung tâm Công ngh ệ thông tin CDIT tr ực thuộc Học viện \nCông nghệ Bưu chính Viễn thông"
+      }
+    ],
+    "results": [
+      {
+        "id": "de_an_ai_ptit_2024_p5_para001",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 5,
+        "text": "- 22/3/1999: Th ành lập Trung tâm Công ngh ệ thông tin CDIT tr ực thuộc Học viện \nCông nghệ Bưu chính Viễn thông \n- 2012: Học viện thành lập Viện Công nghệ Thông tin và Truyền thông \n- 1/7/2014: Học viện được điều chuyển từ Tập đoàn Bưu chính Viễn thông Việt Nam \nvề Bộ Thông tin v à Truyền thông, l à đơn vị sự nghiệp trực thuộc Bộ với vị thế là \ntrường đại học, trung tâm nghiên c ứu trọng điểm của Ngành Thông tin v à Truyền \nthông Việt Nam. 1.1.1.2.",
+        "metadata": {
+          "section": "phan_1",
+          "physical_page": 5,
+          "printed_page": 2,
+          "char_count": 2457
+        },
+        "score": 0.3940714097876973,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "de_an_ai_ptit_2024_p5_para004",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 5,
+        "text": "Học viện Công nghệ Bưu chính Viễn thông là đơn vị sự nghiệp trực thuộc Bộ Thông \ntin và truyền thông, Học viện thực hiện hai chức năng cơ bản: \n- Giáo dục, đào tạo cho xã hội và cho nhu cầu của ngành thông tin và truyền thông Việt \nNam.",
+        "metadata": {
+          "section": "phan_1",
+          "physical_page": 5,
+          "printed_page": 2,
+          "char_count": 2457
+        },
+        "score": 0.26171816547548743,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "de_an_ai_ptit_2024_p4_para003",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 4,
+        "text": "Nh ững mốc \nquan trọng trong quá trình hình thành và phát triển của Học viện được trình bày dưới đây: \n- 07/9/1953: Thành lập trường đại học Bưu điện - Vô tuyến điện \n- 17/9/1966: Thành lập Viện khoa học kỹ thuật Bưu Điện RIPT \n- 08/4/1975: Thành lập Viện Kinh tế Bưu Điện ERIPT \n- 25/8/1988: Thành lập Trung tâm Đào tạo Bưu chính Viễn thông 1 và Trung tâm Đào \ntạo Bưu chính Viễn thông 2",
+        "metadata": {
+          "section": "phan_1",
+          "physical_page": 4,
+          "printed_page": 1,
+          "char_count": 2045
+        },
+        "score": 0.22313078831753416,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[de_an_ai_ptit_2024_p5_para001 | De-an-mo-nganh-AI_Final.pdf | page 5]\n- 22/3/1999: Th ành lập Trung tâm Công ngh ệ thông tin CDIT tr ực thuộc Học viện \nCông nghệ Bưu chính Viễn thông \n- 2012: Học viện thành lập Viện Công nghệ Thông tin và Truyền thông \n- 1/7/2014: Học viện được điều chuyển từ Tập đoàn Bưu chính Viễn thông Việt Nam \nvề Bộ Thông tin v à Truyền thông, l à đơn vị sự nghiệp trực thuộc Bộ với vị thế là \ntrường đại học, trung tâm nghiên c ứu trọng điểm của Ngành Thông tin v à Truyền \nthông Việt Nam. 1.1.1.2.",
+    "context_ids": [
+      "de_an_ai_ptit_2024_p5_para001"
+    ],
+    "context_chars": 524,
+    "elapsed_ms": 0.9396999994351063,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Trong Phần 4 về năng lực cơ sở đào tạo, phòng đọc của thư viện Học viện có diện tích và số chỗ ngồi cụ thể là bao nhiêu?",
+    "strategy": "tfidf_baseline",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter_used": {
+      "section": "phan_4"
+    },
+    "gold": [
+      {
+        "source_id": "de_an_ai_ptit_2024",
+        "page": 46,
+        "evidence": "Diện tích phòng đọc: 200 m2 \nSố chỗ ngồi: 150"
+      }
+    ],
+    "results": [
+      {
+        "id": "de_an_ai_ptit_2024_p46_para000",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 46,
+        "text": "Ngoài ra, H ọc viện cũng đang tri ển khai v à dự kiến sẽ hoàn thành trong năm 2024 \ncông trình Khu nhà hiệu bộ và ký túc xá tại địa chỉ Đường Đại Mỗ, Phường Đại Mỗ, Quận \nNam Từ Liên, Thành phố Hà Nội với tổng diện tích sàn xây dựng trên 16.000m2. Trong \nđó, 01 khối nhà hiệu bộ, phòng học, giảng đường 13 tầng với diện tích sử dụng là 10.400m2 \nvà 01 khối nhà ký túc xá 08 tầng với diện tích sử dụng là trên 6.000m2. 4.3. Thư viện \nDiện tích thư viện: 500 m2 \nDiện tích phòng đọc: 200 m2 \nSố chỗ ngồi: 150 \nSố lượng máy tính phục vụ tra cứu: 12 \nPhần mềm quản lý thư viện: 02 \nThư viện điện tử: \n02, gồm có phần mềm Libol và phầm mềm \nDspace \nThư viện điện tử của Học viện sử dụng các phương ti ện điện tử trong thu thập, lưu \ntrữ, xử lý, tìm và ph ổ biến thông tin dư ới dạng số.",
+        "metadata": {
+          "section": "phan_4",
+          "physical_page": 46,
+          "printed_page": 43,
+          "char_count": 2331
+        },
+        "score": 0.40337448117627756,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "de_an_ai_ptit_2024_p45_para003",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 45,
+        "text": "1 \nHội trường, giảng đường, phòng học các loại, \nphòng đa năng, phòng làm việc của giáo sư, phó \ngiáo sư, giảng viên\n\n180 37156.8 \n1.1 Hội trường, phòng học lớn trên 200 chỗ 5 6178 \n1.2 Phòng học từ 100 – 200 chỗ 16 7077 \n1.3 Phòng học từ 50-100 chỗ 64 8440 \n1.4 Số phòng học dưới 50 chỗ 38 3912 \n1.5 Số phòng học đa phương tiện 0 0 \n1.6 Phòng làm việc của GS, PGS, giảng viên cơ hữu 57 11550 \n2 Thư viện, trung tâm học liệu 1 445.2 \n3 Trung tâm nghiên cứu, phòng thí nghiệm, thực \nhành, cơ sở thực hành, thực tập, luyện tập 50 9275 \n Tổng 231 46.877",
+        "metadata": {
+          "section": "phan_4",
+          "physical_page": 45,
+          "printed_page": 42,
+          "char_count": 2323
+        },
+        "score": 0.29418757010766816,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "de_an_ai_ptit_2024_p45_para002",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 45,
+        "text": "Cơ sở vật chất phục vụ đào tạo \nTrên tổng diện tích đất gần 13ha, Học viện đã đầu tư xây dựng với diện tích sàn xây \ndựng phục vụ hoạt động đào tạo khoảng gần 61.000m2 với gần 200 phòng học, giảng đường \ncác loại (tương đương khoảng 53.000m2); gần 2.000m2 cho thư viện và trên 6.000m2 cho \ncác phòng nghiên cứu, thí nghiệm, thực hành. Do đó, điều kiện cơ cở vật chất của Học viện \nhoàn toàn đảm bảo chất lượng cho việc triển khai thực hiện các chương trình liên kết đào \ntạo quốc tế. Cụ thể: \nSTT Loại phòng Số \nlượng \nDiện tích sàn xây \ndựng (m2)",
+        "metadata": {
+          "section": "phan_4",
+          "physical_page": 45,
+          "printed_page": 42,
+          "char_count": 2323
+        },
+        "score": 0.24807485141534344,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[de_an_ai_ptit_2024_p45_para003 | De-an-mo-nganh-AI_Final.pdf | page 45]\n1 \nHội trường, giảng đường, phòng học các loại, \nphòng đa năng, phòng làm việc của giáo sư, phó \ngiáo sư, giảng viên\n\n180 37156.8 \n1.1 Hội trường, phòng học lớn trên 200 chỗ 5 6178 \n1.2 Phòng học từ 100 – 200 chỗ 16 7077 \n1.3 Phòng học từ 50-100 chỗ 64 8440 \n1.4 Số phòng học dưới 50 chỗ 38 3912 \n1.5 Số phòng học đa phương tiện 0 0 \n1.6 Phòng làm việc của GS, PGS, giảng viên cơ hữu 57 11550 \n2 Thư viện, trung tâm học liệu 1 445.2 \n3 Trung tâm nghiên cứu, phòng thí nghiệm, thực \nhành, cơ sở thực hành, thực tập, luyện tập 50 9275 \n Tổng 231 46.877",
+    "context_ids": [
+      "de_an_ai_ptit_2024_p45_para003"
+    ],
+    "context_chars": 623,
+    "elapsed_ms": 0.29430000176944304,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Khi xây dựng chương trình ngành Trí tuệ nhân tạo, Hội đồng đã khảo sát và đối sánh với hai trường đại học nào của Hoa Kỳ?",
+    "strategy": "tfidf_baseline",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter_used": null,
+    "gold": [
+      {
+        "source_id": "de_an_ai_ptit_2024",
+        "page": 42,
+        "evidence": "• Đại học Stanford (Hoa Kỳ): Chương trình Cử nhân Khoa học Máy tính với chuyên \nngành AI. • Đại học Carnegie Mellon (Hoa Kỳ): Chương trình đào tạo AI và Học máy."
+      }
+    ],
+    "results": [
+      {
+        "id": "de_an_ai_ptit_2024_p42_para001",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 42,
+        "text": "Hội đồng đã khẩn trương tiến hành thu thập ý kiến từ các đơn vị đào tạo, chuyên gia \ntrong lĩnh v ực AI, và các doanh nghi ệp hoạt động trong lĩnh v ực công ngh ệ thông tin, \ntruyền thông, và các ngành ứng dụng AI. Mục tiêu là xác định nhu cầu nhân lực, các kiến \nthức, kỹ năng cần thiết mà sinh viên cần trang bị sau khi tốt nghiệp. Đồng thời, Hội đồng \ncũng đã thực hiện khảo sát, đối sánh các chương trình đào tạo quốc tế và trong nước như: \n• Đại học Stanford (Hoa Kỳ): Chương trình Cử nhân Khoa học Máy tính với chuyên \nngành AI. • Đại học Carnegie Mellon (Hoa Kỳ): Chương trình đào tạo AI và Học máy. • Đại học Quốc gia Hà Nội và Đại học Bách Khoa Hà Nội: Các chương trình đào \ntạo liên quan đến AI và Khoa học Dữ liệu.",
+        "metadata": {
+          "section": "phan_3",
+          "physical_page": 42,
+          "printed_page": 39,
+          "char_count": 2626
+        },
+        "score": 0.43217132711185957,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "de_an_ai_ptit_2024_p28_para002",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 28,
+        "text": "Kết quả khảo sát các k ỹ năng cần có c ủa sinh viên t ốt nghiệp ngành Trí tu ệ \nnhân tạo và chuẩn đầu ra cho chương trình đào tạo Trí tuệ nhân tạo \nDựa trên kết quả nghiên cứu và khảo sát về các vị trí việc làm liên quan đ ến ngành \nTrí tuệ nhân tạo cũng như các năng lực cần thiết mà người học phải có để đáp ứng yêu cầu \ncông việc, bản dự thảo chuẩn đầu ra cho chương trình đào t ạo ngành Trí tu ệ nhân tạo đã \nđược xây dựng. Tiếp theo, một cuộc khảo sát đã đư ợc tiến hành vào tháng 9/2024 v ới sự \ntham gia của 350 cá nhân, bao gồm đại diện các doanh nghiệp/nhà tuyển dụng và sinh viên \nđang theo h ọc ngành trí tu ệ nhân tạo và các ngành công ngh ệ thông tin. Phi ếu khảo sát \nđược xây dựng dựa trên các hướng dẫn và quy định của Học viện.",
+        "metadata": {
+          "section": "phan_2",
+          "physical_page": 28,
+          "printed_page": 25,
+          "char_count": 2536
+        },
+        "score": 0.32880707465621023,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "de_an_ai_ptit_2024_p42_para000",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 42,
+        "text": "PHẦN 3. CHƯƠNG TRÌNH ĐÀO TẠO NGÀNH TRÍ TUỆ NHÂN TẠO \n1. Tóm tắt quá trình triển khai xây dựng chương trình đào tạo \nDựa trên sự phát triển mạnh mẽ của lĩnh vực Trí tuệ nhân tạo (AI) và xu hướng ứng \ndụng AI trong nhiều ngành nghề, Học viện Công nghệ Bưu chính Viễn thông đã triển khai \nxây dựng chương trình đào tạo ngành AI với các bước cụ thể như sau: \nNgày 12/08/2024, Giám đ ốc Học viện đã ký Quy ết định số 1430/QĐ-HV về việc \nthành lập Hội đồng xây d ựng Chương trình đào t ạo trình đ ộ đại học ngành Trí tu ệ nhân \ntạo; Hội đồng bao gồm các chuyên gia trong lĩnh vực AI, công nghệ thông tin, và các nhà \nquản lý giáo dục.",
+        "metadata": {
+          "section": "phan_3",
+          "physical_page": 42,
+          "printed_page": 39,
+          "char_count": 2626
+        },
+        "score": 0.2997083929408678,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[de_an_ai_ptit_2024_p42_para001 | De-an-mo-nganh-AI_Final.pdf | page 42]\nHội đồng đã khẩn trương tiến hành thu thập ý kiến từ các đơn vị đào tạo, chuyên gia \ntrong lĩnh v ực AI, và các doanh nghi ệp hoạt động trong lĩnh v ực công ngh ệ thông tin, \ntruyền thông, và các ngành ứng dụng AI. Mục tiêu là xác định nhu cầu nhân lực, các kiến \nthức, kỹ năng cần thiết mà sinh viên cần trang bị sau khi tốt nghiệp. Đồng thời, Hội đồng \ncũng đã thực hiện khảo sát, đối sánh các chương trình đào tạo quốc tế và trong nước như: \n• Đại học Stanford (Hoa Kỳ): Chương trình Cử nhân Khoa học Máy tính với chuyên \nngành AI. • Đại học Carnegie Mellon (Hoa Kỳ): Chương trình đào tạo AI và Học máy. • Đại học Quốc gia Hà Nội và Đại học Bách Khoa Hà Nội: Các chương trình đào \ntạo liên quan đến AI và Khoa học Dữ liệu.",
+    "context_ids": [
+      "de_an_ai_ptit_2024_p42_para001"
+    ],
+    "context_chars": 798,
+    "elapsed_ms": 0.8770000004005851,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Đối với các doanh nghiệp quy mô lớn (trên 300 người), ưu tiên chiến lược của họ khi đầu tư vào AI là gì?",
+    "strategy": "tfidf_baseline",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter_used": null,
+    "gold": [
+      {
+        "source_id": "de_an_ai_ptit_2024",
+        "page": 17,
+        "evidence": "Xây dựng phòng ban \nAI chuyên dụng: Thu \nhút, duy trì đội ngũ \nchuyên gia AI để \nphát triển các giải \npháp tiên tiến"
+      }
+    ],
+    "results": [
+      {
+        "id": "de_an_ai_ptit_2024_p17_para001",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 17,
+        "text": "Sau đây là tổng hợp \ncác ưu tiên và trọng tâm của các doanh nghiệp theo các quy mô khác nhau: \nLoại DN Doanh nghiệp nhỏ Doanh nghiệp vừa Doanh nghiệp lớn \nSố lượng nhân sự 10-100 người 100-300 người >300 người \nƯu tiên \nTận dụng các giải \npháp AI sẵn có trên \nthị trường (SaaS, \nAPIs) để tiết kiệm chi \nphí và thời gian phát \ntriển \nBắt đầu xây dựng đội \nngũ AI: Thuê chuyên \ngia AI hoặc hợp tác \nvới các công ty tư \nvấn để phát triển các \ngiải pháp tùy chỉnh \nXây dựng phòng ban \nAI chuyên dụng: Thu \nhút, duy trì đội ngũ \nchuyên gia AI để \nphát triển các giải \npháp tiên tiến \nTrọng tâm \nTự động hóa các tác \nvụ đơn giản, lặp đi \nlặp lại để cải thiện \nhiệu quả hoạt động \nCải thiện quy trình \nkinh doanh, ra quyết \nđịnh và trải nghiệm \nkhách hàng \nNghiên cứu và phát \ntriển các công nghệ \nAI đột phá, tích hợp \nvào toàn bộ hoạt \nđộng kinh doanh \nVí dụ \nChatbot chăm sóc \nkhách hàng, phân \ntích dữ liệu để quảng \ncáo tự động \nKiểm tra chất lượng \nsản phẩm bằng AI, \ndự đoán nhu cầu \nkhách hàng, cá nhân \nhóa nội dung website \nTrí tuệ nhân tạo tổng \nhợp (AGI), robot tự \nđộng, chatbot thông \nminh giao tiếp đa \nngôn ngữ, đa kênh \nBảng 1.",
+        "metadata": {
+          "section": "phan_2",
+          "physical_page": 17,
+          "printed_page": 14,
+          "char_count": 2613
+        },
+        "score": 0.3231705867193233,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "de_an_ai_ptit_2024_p16_para002",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 16,
+        "text": "Ngoài ra, AI còn được sử dụng trong việc tối \nưu hóa quảng cáo trực tuyến, giúp các doanh nghi ệp nhỏ đạt được sự chính xác cao hơn \ntrong các chiến dịch marketing, đồng thời tiết kiệm chi phí. Khi xét đến các doanh nghi ệp có quy mô v ừa, với đội ngũ nhân s ự từ 100 đến 300 \nngười, sự phát triển AI trở nên chuyên sâu hơn. Các doanh nghi ệp này bắt đầu nhận thức \nrõ ràng về tiềm năng của AI trong việc cải thiện các quy trình kinh doanh và ra quyết định. Họ thường tiến hành thuê chuyên gia AI hoặc hợp tác với các công ty tư vấn công nghệ để \nphát triển những giải pháp tùy chỉnh, đáp ứng nhu cầu cụ thể của mình.",
+        "metadata": {
+          "section": "phan_2",
+          "physical_page": 16,
+          "printed_page": 13,
+          "char_count": 3372
+        },
+        "score": 0.316144239190491,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "de_an_ai_ptit_2024_p16_para000",
+        "source_id": "de_an_ai_ptit_2024",
+        "source": "De-an-mo-nganh-AI_Final.pdf",
+        "page": 16,
+        "text": "chóng mà còn đóng vai trò quyết định trong việc định hình lại tương lai của nền kinh tế thế \ngiới. Xu hướng ứng dụng trí tu ệ nhân tạo (AI) trong doanh nghi ệp hiện nay đang có s ự \nphát triển mạnh mẽ, và tùy theo quy mô doanh nghiệp mà cách tiếp cận AI cũng có sự khác \nbiệt rõ rệt. Sự đa dạng trong việc áp dụng AI không chỉ phản ánh nhu cầu của các doanh \nnghiệp trong việc tối ưu hóa hoạt động mà còn cho thấy mức độ sẵn sàng của họ trong việc \nđầu tư vào công ngh ệ tiên tiến nhằm nâng cao hi ệu suất và khả năng cạnh tranh. Từ các \ndoanh nghiệp nhỏ, vừa, cho đến các tập đoàn lớn, mỗi nhóm đều có chiến lược khác nhau \ntrong việc tận dụng AI để đạt được các mục tiêu kinh doanh.",
+        "metadata": {
+          "section": "phan_2",
+          "physical_page": 16,
+          "printed_page": 13,
+          "char_count": 3372
+        },
+        "score": 0.2917681094820529,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[de_an_ai_ptit_2024_p16_para002 | De-an-mo-nganh-AI_Final.pdf | page 16]\nNgoài ra, AI còn được sử dụng trong việc tối \nưu hóa quảng cáo trực tuyến, giúp các doanh nghi ệp nhỏ đạt được sự chính xác cao hơn \ntrong các chiến dịch marketing, đồng thời tiết kiệm chi phí. Khi xét đến các doanh nghi ệp có quy mô v ừa, với đội ngũ nhân s ự từ 100 đến 300 \nngười, sự phát triển AI trở nên chuyên sâu hơn. Các doanh nghi ệp này bắt đầu nhận thức \nrõ ràng về tiềm năng của AI trong việc cải thiện các quy trình kinh doanh và ra quyết định. Họ thường tiến hành thuê chuyên gia AI hoặc hợp tác với các công ty tư vấn công nghệ để \nphát triển những giải pháp tùy chỉnh, đáp ứng nhu cầu cụ thể của mình.",
+    "context_ids": [
+      "de_an_ai_ptit_2024_p16_para002"
+    ],
+    "context_chars": 690,
+    "elapsed_ms": 0.7358000002568588,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  }
+]
